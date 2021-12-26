@@ -1,6 +1,5 @@
 <template>
-    vue3项目
-    <button @click="fn">测试request</button>
+    <router-view/>
 </template>
 <script>
 import request from '@/utils/request'
