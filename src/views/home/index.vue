@@ -12,7 +12,4 @@ export default {
 </script>
 
 <style lang='less'>
-.container{
-    .hoverShadow ()
-}
 </style>

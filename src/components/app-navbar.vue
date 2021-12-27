@@ -21,13 +21,17 @@
 </template>
 
 <script>
+import { computed } from 'vue'
 import { useStore } from 'vuex'
 export default {
   name: 'AppNavBar',
   setup () {
     const store = useStore()
     // 获取用户登录信息，控制导航登录切换
-    const { profile } = store.state.user
+    // 使用vuex中的state需要使用computed计算属性，否则不是响应式的
+    const profile = computed(() => {
+      return store.state.user.profile
+    })
     return {
       profile
     }

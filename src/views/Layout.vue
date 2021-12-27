@@ -2,7 +2,7 @@
   <!-- 顶部导航 -->
   <app-nav-bar></app-nav-bar>
   <!-- 头部组件 -->
-  <header>头部组件</header>
+  <app-header></app-header>
   <!-- 内容容器 -->
   <div class="main">
       <!-- 二级路由 -->
@@ -14,13 +14,14 @@
 
 <script>
 import AppNavBar from '@/components/app-navbar.vue'
+import AppHeader from '@/components/app-header.vue'
 export default {
   name: 'Layout',
-  components: { AppNavBar }
+  components: { AppNavBar, AppHeader }
 
 }
 </script>
 
-<style>
+<style lang='less' scoped>
 
 </style>
