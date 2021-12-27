@@ -1,6 +1,6 @@
 <template>
   <!-- 顶部导航 -->
-  <nav>顶部导航</nav>
+  <app-nav-bar></app-nav-bar>
   <!-- 头部组件 -->
   <header>头部组件</header>
   <!-- 内容容器 -->
@@ -13,8 +13,10 @@
 </template>
 
 <script>
+import AppNavBar from '@/components/app-navbar.vue'
 export default {
-  name: 'Layout'
+  name: 'Layout',
+  components: { AppNavBar }
 
 }
 </script>

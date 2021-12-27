@@ -9,8 +9,8 @@ export default {
         avatar: '',
         mobile: '',
         nickname: '',
-        account: '546',
-        token: 1
+        account: '',
+        token: ''
       }
     }
   },
