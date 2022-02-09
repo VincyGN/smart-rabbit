@@ -9,7 +9,7 @@
       <router-view></router-view>
   </div>
   <!-- 底部footer -->
-  <footer>底部footer</footer>
+  <footer>底部footer测试</footer>
 </template>
 
 <script>
